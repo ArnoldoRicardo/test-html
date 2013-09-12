@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><title>maquetacion por tablas</title></head>
+  <body background="http://www.newwebstar.com/uploads/posts/2008-01/thumbs/1201794677_tux2b2.jpg">
+<a name="arriba"></a>
+    <table width="700" border="12" align="center">
+      <tr>
+	<td colspan="2"><img width="700" src="http://www.gentoo.org/proj/en/pr/releases/10.0/images/banner.jpg" alt="encabezado" /></td>
+      </tr>
+      <tr bgcolor="white">
+	<td width="525">
+	  <h3>C&#243;mo saber si un paquete se encuentra instalado.</h3>
+	  <p>Algunas veces necesitamos saber si algún paquete está instalado en nuestro sistema, y es algo tedioso abrir nuestro gestor de paquetes para después de varios pasos ver si se encuentra instalado o no.</p>
+	  <br>
+	  <p>He aquí la manera fácil y rápida de hacerlo desde un terminal.</p>
+	  <br/>
+	  <p>Para saber si un paquete se encuentra disponible en los repositorios, abrí un terminal y escribí:</p>
+	  <br/>
+	  <ul>
+	    <li>Arch Linux: pacman -Ss paquete
+	    <li>Fedora: yum search paquete
+	    <li>Debian/Ubuntu: apt-cache search paquete
+	    <li>OpenSUSE: zypper se paquete
+	    <li>Gentoo: emerge -S paquete
+	  </ul>
+	  <br/>
+	  <p>Para saber si un paquete se encuentra instalado en nuestra máquina:</p>
+	  <br/>
+	  <ul>
+	    <li>Arch Linux: pacman -Ss paquete</li>
+	    <li>Fedora: rpm -qa | grep paquete</li>
+	    <li>Debian/Ubuntu: dpkg -l | grep paquete</li>
+	    <li>OpenSUSE: zypper se -i paquete</li>
+	    <li>Gentoo: emerge -pv paquete</li>
+	  </ul>
+	  <br/>
+<a href="#arriba">arriba </a>
+	</td>
+	<td width="175" valign="top">
+	  <p align="center"><h5>menu:</h5></p>
+	  <ul>
+	    <li><a href="2.html">inicio</a></li>
+	    <li><a href="1.html">otros</a></li>
+	    <li><a href="#abajo">abajo</a></li>
+	  </ul>
+	</td>
+      </tr>
+    </table>
+<a name="abajo"></a>
+  </body>
+</html>

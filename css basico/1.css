@@ -1,0 +1,104 @@
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+background: #C7CAC9 url("crazykira-resources (48).jpg");
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+#header {
+margin: 5px 10px;
+background: #EE7E94;
+height: 100px;
+border-bottom: 2px solid #414247;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#header h1 {
+font: italic normal bold 24px ubuntu;
+text-align:left;
+padding: 40px;
+color:  #fff;
+}
+
+#main {
+float: left;
+width: 70%;
+margin: 5px 10px;
+background: #fff;
+padding: 20px 0 20px 20px;
+border: 1px solid #414247;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#main p { 
+color: #414247;
+}
+
+#sidebar {
+float: right;
+width: 20%;
+background: #fff;
+margin: 5px 10px 0 0;
+border: 1px solid;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#sidebar h3{ 
+border-bottom: 1px solid #414247;
+padding: 5px;
+background: #D8505C;
+color: #fff;
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-radius: 10px 10px 0 0;
+}
+
+#hacercade {
+color: #3B3B3B;
+margin: 0 10px;
+background: #F8B4C4;
+border-bottom:  2px solid #3B3B3B;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+#sidebar ul {
+text-align: left;
+list-style-image: url("img/bullet.gif");
+padding: 10px 25px;
+}
+
+#sidebar ul li a {
+font: italic normal lighter 1em verdana;
+color: #414247;
+text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+color: #F8B4C4;
+}
+
+.post {
+text-align: justify;
+}
+
+.post h3 {
+color: #f00;
+text-align: left;
+}
+
+.info {
+    font: italic normal normal 10px verdana;
+}

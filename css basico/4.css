@@ -1,0 +1,59 @@
+body {
+background: #fff url(http://img.ehowcdn.co.uk/other-people/ehow/images/a08/a9/21/transversal-mean-geometry-180x180.jpg) repeat;
+text-align: center;
+margin: 20px 0;
+font: 9pt verdana, tahoma, arial;
+}
+
+#contenedor {
+width: 800px;
+text-align: left;
+background: #fff;
+border: 1px solid #000;
+margin: auto;
+}
+
+#cabecera {
+width: 800px;
+hight: 100px;
+}
+
+#cuerpo {
+width: 580px;
+float: left;
+background: #fff;
+padding: 0px 10px;
+text-align: justify;
+}
+
+h1 {
+text-align: center;
+}
+
+#derecha {
+width: 199px;
+float: right;
+background: #fff;
+border-left: 1px solid;
+border-bottom: 1px solid;
+
+}
+
+#titulo {
+background: #999;
+padding: 2px 10px;
+text-transform: capitalize;
+}
+
+#pie {
+clear: both;
+padding: 5px 10px;
+}
+
+a.enlace, a.enlace:active, a.enlace:visited, a.enlace:focus, a.enlace:link {
+color: gray
+}
+
+a.enlace:hover {
+color: blue
+}
